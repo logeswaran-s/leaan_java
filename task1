@@ -1,0 +1,54 @@
+package logeswaran;
+import java.util.Scanner;
+
+public class loges {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+//		//find last digital
+//		int a=56;
+//		System.out.println(a%10);
+//		//remove last digit
+//		int b=50;
+//		System.out.println(b/10);
+//		//find last 2 digit
+//		int c=1234;
+//		System.out.println(c%100);
+//		//find of middle number and square
+//		int d=54623;
+//		a=(d%1000/100);
+//		System.out.println(a*a);
+//		//swap two number using bitwise
+//		a=40;
+//		b=20;
+//		a=a^b;
+//		b=a^b;
+//		a=a^b;
+//		System.out.println(a);
+//		System.out.println(b);
+		
+		//find BMI
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		int c=a/(b/100)^2;
+//		System.out.println(c);
+		
+		//expand the number
+		int a=1234;
+		int b=a%10;
+		int c=(a/10)%10;
+		int d=(a/100)%10;
+		int e=(a/1000);
+		System.out.println(e*1000+ "+"+d*100+"+"+c*10+"+"+b);
+		
+		//volume of cylinder
+		a=2;
+		b=5;
+		System.out.println(3.14*a*a*b);
+		
+		//volume of cuboid
+		
+		int l=3;
+		int br=5;
+		int h=7;
+		System.out.println(l*br*h);
