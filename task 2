@@ -1,0 +1,49 @@
+package loges;
+import java.util.Scanner;
+public class loges {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		if(a==b) {
+//			System.out.println("Squate");
+//		}
+//		else {
+//			System.out.println("Rectangle");
+//		}
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		int c=a-b;
+//		if(c==0) {
+//			System.out.println("value is 0");
+//		}
+//		else {
+//			System.out.println("any number");
+//		}
+//		int cs=sc.nextInt();
+//		if(cs>=50 && cs<=100) {
+//			System.out.println("Pass");
+//		}
+//		else if(cs>=100) {
+//			System.out.println("Invaild");
+//		}
+//		else {
+//			System.out.println("fail");
+//		}
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		if(a>b) {
+			System.out.println("value a is higher"+a);
+		}
+		else if(a<b) {
+			System.out.println("value b is bigger"+b);
+		}
+		else {
+			System.out.println("two value are same");
+		}
+		          
+		
+	}
+
+}
