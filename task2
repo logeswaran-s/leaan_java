@@ -1,0 +1,169 @@
+package logeswaran;
+
+import java.util.Scanner;
+
+public class task {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+//		1.
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		if(a==b) {
+//			System.out.println("Squate");
+//		}
+//		else {
+//			System.out.println("Rectangle");
+//		}
+//		3.
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		int c=a-b;
+//		if(c==0) {
+//			System.out.println("value is 0");
+//		}
+//		else {
+//			System.out.println("any number");
+//		}
+//		4.
+//		int cs=sc.nextInt();
+//		if(cs>=50 && cs<=100) {
+//			System.out.println("Pass");
+//		}
+//		else if(cs>=100) {
+//			System.out.println("Invaild");
+//		}
+//		else {
+//			System.out.println("fail");
+//		}
+//		6.
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		if(a>b) {
+//			System.out.println("value a is higher"+a);
+//		}
+//		else if(a<b) {
+//			System.out.println("value b is bigger"+b);
+//		}
+//		else {
+//			System.out.println("two value are same");
+//		}
+//		7.
+//		int a=sc.nextInt();
+//		if(a==1) {
+//			System.out.println("You can go out and play");
+//		}
+//		else {
+//			System.out.println("You cannot go out and play");
+//		}
+//		5.
+//		int a=sc.nextInt();
+//		if(a%10==0) {
+//			System.out.println("divisible by 10");
+//		}
+//		else {
+//			System.out.println("not divisible by 10");
+//		}
+//      9.
+//		int a=sc.nextInt();
+//		int b=sc.nextInt();
+//		char c=sc.next().charAt(0);
+//		if(c=='+'){
+//			System.out.println(a+b);
+//		}
+//		else if(c=='-') {
+//			System.out.println(a-b);
+//		}
+//		else if(c=='*') {
+//			System.out.println(a*b);
+//		}
+//		else if(c=='/') {
+//			System.out.println(a/b);
+//		}
+//		else {
+//			System.out.println("Invaild");
+//		}
+//		10.
+		
+//		int w=sc.nextInt();
+//		String t=sc.next();
+//		
+//		if(w<=100){
+//			System.out.println("parcel type is :"+t);
+//			if (t.equals("O")) {
+//				System.out.println("Amount is 80rs");
+//			}
+//			else if(t.equals("E")) {
+//				System.out.println("Amount is 100rs");
+//			}
+//		}
+//			if(w>100 && w<=500) {
+//				System.out.println("parcel type is :"+t);
+//				if(t.equals("O")) {
+//					System.out.println("Amount is 150rs");
+//				}
+//				else if(t.equals("E")) {
+//					System.out.println("Amount is 200");
+//				}
+//			
+//		}
+//			if(w>500 && w<=1000) {
+//				System.out.println("parcel type is :"+t);
+//				if(t.equals("O")) {
+//					System.out.println("Amount is 210rs");
+//				}
+//				else if (t.equals("E")) {
+//					System.out.println("Amount is 250rs");
+//				}
+//			}
+//			if(w>1000) {
+//				System.out.println("parcel type is :"+t);
+//				if(t.equals("O")) {
+//					System.out.println("Amount is 250");
+//				}
+//				else if(t.equals("E")) {
+//					System.out.println("Amount is 300rs");
+//				}
+//			}
+//		11.
+//		  int a=sc.nextInt();
+//		  if(a<=50000) {
+//			  System.out.println("No discount");
+//		  }
+//		   if(a>=50001 && a<=100000) {
+//			  System.out.println("10% on the list price :"+(a-(a/10)));
+//		  }
+//		   if(a>=100001 && a<=1500000) {
+//			  System.out.println("15% on the list price :"+(a-(a/15)));
+//		  }
+//		   if(a>1500000) {
+//			  System.out.println("20% on the list price :"+(a-(a/20)));
+//		  }
+//		12.
+//		int a=sc.nextInt();
+//		if(a<=5) {
+//			System.out.println("fine for :"+(a*40)+"paisa");
+//		}
+//		if(a>=6 && a<=10) {
+//			System.out.println("fine for :"+(a*65)+"paisa");
+//		}
+//		if(a>10) {
+//			System.out.println("fine for :"+(a*80)+"paisa");
+//		}
+//		13.
+//		int a=sc.nextInt();
+//		if(a/7==0 || a%10==7) {
+//			System.out.println("It is Buzz Number");
+//		}
+//		else {
+//			System.out.println("It is not Buzz Number");
+//		}
+//		 14.
+//		int a=sc.nextInt();
+//		int b=;
+		
+		
+
+	}
+
+}
