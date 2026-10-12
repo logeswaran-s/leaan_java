@@ -1,0 +1,108 @@
+package task6;
+
+public class Function {
+//	9.
+//	static void price(int a)
+//	{
+//		if(a<=50000) {
+//			
+//			System.out.println("No discount");
+//		}
+//		else if(a>=50001 && a<=100000)
+//		{
+//			int b=a/10;
+//			System.out.println("10% discont on price :"+b);
+//		}
+//		else if(a>=100001 && a<=150000)
+//		{
+//			int b=a/15;
+//			System.out.println("15% discont on price :"+b);
+//		}
+//		else
+//		{
+//			int b=a/20;
+//			System.out.println("20% discont on price :"+b);
+//		}
+//	}
+
+//	10.
+	
+//	static int square(int a)
+//	{
+//		int b=a*a;
+//		return b;
+//	}
+//	static int cubes(int x)
+//	{
+//		int y=x*x*x;
+//		return y;
+//	}
+	
+//	11.
+	
+//	static void sum(int a,double b)
+//	{
+//		double c=a+b;
+//		System.out.println("The sum value is :"+c);
+//	}
+	
+//	12.
+	
+//	static void isCapital(char a)
+//	{
+//		if(a>=65 && a<=90)
+//		{
+//			System.out.println("It is a captial letter :"+a);
+//		}
+//		else
+//		{
+//			System.out.println("It is small letter");
+//		}
+//	}
+	
+//	13.
+	
+//	static void isVowel(char z)
+//
+//	{
+//	  if(z=='a'||z=='e' ||z=='i' || z=='o' ||z=='u')
+//	  {
+//		  System.out.println("Character is a vowel :"+z);
+//	  }
+//	  else
+//	  {
+//		  System.out.println("Character is a consonant :"+z);
+//	  }
+//	
+//	}
+	
+//	14.
+	
+	static void smallLetter(char a)
+	{
+		if(a>=65 && a<=90)
+		{
+			int z=a+32;
+			System.out.println((char)z);
+		}
+		else 
+		{
+			System.out.println("given letter is small letter");
+		}
+	}
+	
+	public static void main(String[] args) {
+			
+//		price(70567);
+//		int c=square(10);
+//		System.out.println("square value is :"+c);
+//		int z=cubes(6);
+//		System.out.println("cube v`alue is :"+z);
+//		sum(10,5.5);
+//		isCapital('a');
+//		isVowel('n');
+		smallLetter('z');
+		
+	}
+
+}
