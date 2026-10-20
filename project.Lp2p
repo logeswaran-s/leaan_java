@@ -1,0 +1,160 @@
+package logeswaran;
+import java.util.Scanner;
+public class function
+{
+	static Scanner sc=new Scanner(System.in);
+static String [] positivekeywords =
+{   
+	"good",
+	"amazing",
+	"wonderful",
+	"joyful",
+	"nice",
+	"excellent",
+	"cool",
+    "pleasant",
+    "lovely",
+    "great",
+    "fabulous",
+    "kind",
+    "happy",
+    "delightful",
+    "super",
+    "perfect",
+    "brilliant",
+    "impressive",
+    "proudly",
+    "beautiful",
+    "best",
+    "enjoy",
+    "awesome",
+    "fantastic",
+    "like",
+    "cheerful",
+    "excited",
+    "success",
+    "helpful"
+    };
+static String [] negativekeywords =
+{ 
+	"difficult",
+	"sorry",
+	"angry",
+	"worst",
+	"sad",
+	"dislike",
+	"disappointed",
+	"annoying",
+	"irritating",
+	"awful",
+	"upset",
+	"frustrating",
+	"unhappy",
+	"crying",
+	"bad",
+	"hate",
+	"lonely",
+	"stressful",
+	"failure",
+	"miserable",
+	"poor",
+	"terrible",
+	"boring",
+	"worried",
+	"scared",
+	"regret",
+	"useless",
+	"painful",
+	"horrible"
+	};
+
+static int positivecount=0;
+static int negativecount=0;
+static void analysetext (String text)
+{
+	positivecount=0;
+	negativecount=0;
+for (String word:positivekeywords)
+{
+	if(text.contains(word))
+{
+		positivecount++;
+}
+}
+for (String word:negativekeywords)
+{
+	if (text.contains(word))
+{
+		negativecount++;
+}
+}
+System.out.println("\n---------ANALYSIS RESULT--------");
+System.out.println("positive words=" + positivecount);
+System.out.println("negative words=" + negativecount);
+
+if (positivecount>negativecount)
+{
+    System.out.println("the given sentence is positive");	
+}
+else if (positivecount<negativecount)
+{
+	System.out.println("the given sentence is negative");
+}
+else
+{
+	System.out.println("the given sentence is neutral");
+}
+}
+static void useroptions()
+{
+	System.out.println(" ----WELCOME TO TEXT SENTIMENT ANALYSIS SIMULATOR---- ");
+    System.out.println("1.analyse text");
+    System.out.println("2.show keywords");
+    System.out.println("3.exit");
+    
+    System.out.println("Enter your choice");
+}
+static void showkeywords()
+{
+    System.out.println("positive keywords");
+for (String word:positivekeywords)
+{
+   System.out.println(word + " ");	
+}
+   System.out.println("negative keywords");
+for (String word:negativekeywords)
+{
+	System.out.println(word + " ");
+}
+System.out.println();
+}
+	public static void main(String[] args) {
+		int choice;
+		do
+		{
+			useroptions();
+			choice =sc.nextInt();
+		switch(choice)
+		{
+		case 1:
+			System.out.println("Enter your sentence");
+			sc.nextLine();
+		String text=sc.nextLine();
+		analysetext (text);
+		break;
+		
+		case 2:
+			showkeywords();
+		break;
+		
+		case 3:
+			System.out.println("thank you for using the simulator..");
+			break;
+		default:
+		System.out.println("invalid choice..please try again!!");
+		}}
+while(choice !=3);
+	sc.close();
+       }
+       }
+
