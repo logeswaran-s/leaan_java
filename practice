@@ -1,0 +1,95 @@
+package Logeswaran;
+//  class student
+//  {
+//	  String Name="Logeswaran";
+//	  int Mark =95;
+//	  void detail()
+//	  {
+//		  System.out.println(Name+"  maths mark is :"+Mark);
+//	  }
+//	  
+//	 }
+//  class student1 extends student
+//  {
+//	  String Name="Praveen";
+//	  int Mark=40; 0
+//	  void detail1()
+//	  {
+//		  System.out.println(Name+"  maths mark is :"+Mark);
+//	  }
+//  }
+//	class student
+//	{
+//		student()
+//		{
+//			System.out.println("Logeswaran");
+//		}
+//		
+//		void Mark()
+//		{
+//			System.out.println("Mark is 95");
+//		}
+//	}
+
+	class detail
+	{
+		
+		detail(String Name)
+		{
+			System.out.println("Student name is :"+Name);
+		}
+		detail(int a,int b)
+		{
+			System.out.println("Maths mark is "+a+" out of  "+b);
+		}
+		
+	}
+	class mark extends 
+	{
+		mark()
+		{
+			System.out.println("Student name is");
+		}
+		mark(int a)
+		{
+			System.out.println("Maths mark is "+a);
+		}
+	}
+
+//	class car
+//	{
+//		void Model()
+//		{
+//			System.out.println("BMW");
+//		}
+//	}
+//	class bike
+//	{
+//		void Model()
+//		{
+//			System.out.println("Activa");
+//		}
+//	}
+//	class bus extends car 
+//	{
+//		void Model()
+//		{
+//			System.out.println("Activa");
+//		}
+//	}
+
+
+
+public class Task {
+
+	public static void main(String[] args) {
+//		student n=new student();
+//		n.Mark(); 
+		new detail("Logeswaran");
+		new detail(70,100);
+		new mark();
+		
+		
+	}
+
+}
