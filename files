@@ -1,0 +1,131 @@
+package Loges;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+//class Students
+//	{
+//		private String name;
+//		private int id;
+//		private int age;
+//		
+//		public void setname(String name)
+//		{
+//			this.name=name;
+//		}
+//		public void setid(int id)
+//		{
+//			this.id=id;
+//		}
+//		public void setage(int age)
+//		{
+//			this.age=age;
+//		}
+//		
+//		public String getname()
+//		{
+//			return name;
+//			
+//		}
+//		public int getid()
+//		{
+//			return id;
+//		}
+//		public int getage()
+//		{
+//			return age;
+//		}
+//	}
+//public class task4 {
+//
+//	public static void main(String[] args) {
+//		
+//		Students s=new Students();
+//		s.setname("Logeswaran");
+//		s.setid(1234);
+//		s.setage(21);
+//		
+//		System.out.println(s.getage()+" "+s.getname()+" "+s.getid());
+
+//public class task4 {
+//		
+//	int id;
+//	private void detail()
+//	{
+//		System.out.println(id=123);
+//	}
+//
+//	public static void main(String[] args) {
+//		
+//		task4 t=new task4();
+//		t.detail();
+
+//public class task4 {
+//	
+//	
+//
+//	public static void main(String[] args) throws IOException {
+		
+//		File  f=new File("C:\\Users\\Livewire\\Desktop\\log.txt");
+////		if(f.createNewFile())
+////		{
+////			System.out.println("File Created");
+////		}
+////		else
+////		{
+////			System.out.println("File already Created");
+////		}
+//		
+//		FileWriter fw=new FileWriter(f);
+//		fw.write("Rohit Gurunath Sharma (born April 30, 1987) is an Indian \n international cricketer and former \n captain of the India national cricket team across all formats.\n Nicknamed the \"Hitman\" for his effortless six-hitting ability,\n he currently represents India exclusively in One Day Internationals (ODIs) and \n plays for the Mumbai Indians in the Indian Premier League (IPL).");
+//		fw.flush();
+//		System.out.println("Writed");
+//		
+////		Read a file
+//		
+//		Scanner sc=new Scanner(f);
+//		while(sc.hasNext())
+//		{
+//			System.out.println(sc.nextLine());
+//		}
+		
+//		if(f.delete())
+//		{
+//			System.out.println("File Deleted");
+//		}
+//		else
+//		{
+//			System.out.println("File alreay deleted");
+//		}
+
+
+public class task4 {
+
+	public static void main(String[] args) throws IOException {
+		
+		File f=new File("C:\\Users\\Livewire\\Desktop\\loges.txt");
+		
+//		FileWriter fw=new FileWriter(f);
+//		
+//		fw.write("Rohit Gurunath Sharma (born April 30, 1987) is an Indian \n international cricketer and former \n captain of the India national cricket team across all formats.\n Nicknamed the \"Hitman\" for his effortless six-hitting ability,\n he currently represents India exclusively in One Day Internationals (ODIs) and \n plays for the Mumbai Indians in the Indian Premier League (IPL).");
+//		fw.flush();
+//		
+//		Scanner sc=new Scanner(f);
+//		while(sc.hasNext())
+//		{
+//			System.out.println(sc.nextLine());
+//		}
+		if(f.delete())
+		{
+			System.out.println("File deleted");
+		}
+		else
+		{
+			System.out.println("File already deleted");
+		}
+		
+	}
+
+}
